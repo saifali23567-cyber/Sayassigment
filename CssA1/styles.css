@@ -1,0 +1,23 @@
+.box a{
+    color: red;
+}
+
+h1, h2{
+    color: purple;
+}
+
+.box{
+    color: brown;
+}
+
+.intro{
+    color:green;
+}
+
+#main-heading{
+    color: blue;
+}
+
+p{
+    color: gray;  
+}
