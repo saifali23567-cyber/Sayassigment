@@ -1,23 +1,20 @@
-/* Card Layout (Floating left) */
 .card {
     float: left;
-    width: 22%;             /* Gives each card roughly a quarter of the screen width */
-    margin: 1.5%;           /* Adds space around each card */
+    width: 22%;             
+    margin: 1.5%;           
     
-    /* Design Requirements */
+     Design Requirements 
     background-color: #f0f4f8; 
-    padding: 20px;          /* Space inside the card */
-    border-radius: 10px;    /* Rounded corners */
-    box-sizing: border-box; /* Keeps padding from breaking the 22% width math */
+    padding: 20px;          
+    border-radius: 10px;    
+    box-sizing: border-box; 
     text-align: center;
 }
 
-/* Hover Effect */
 .card:hover {
-    background-color: #d9e2ec; /* Changes background color when mouse hovers over */
+    background-color: #d9e2ec; 
 }
 
-/* Button Styling */
 .card button {
     background-color: #334e68;
     color: white;
@@ -27,15 +24,13 @@
     cursor: pointer;
 }
 
-/* Clearfix to stop next content from overlapping */
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Styling for the content below the cards */
-.next-content {
+next-content {
     text-align: center;
     padding: 20px;
 }
