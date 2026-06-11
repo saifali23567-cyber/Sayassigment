@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.foot {
+  text-align: center;
+  padding: 0.5rem 0;
+  padding-bottom: 2rem;
+}
+
+.fa-facebook-f {
+  color: #3b5998;
+  padding: 0.5rem;
+}
+
+.fa-instagram {
+  color: #e4405f;
+  padding: 0.5rem;
+}
+
+.fa-linkedin {
+  padding: 0.5rem;
+  color: #0a66c2;
+}
+
+/* ========================================================== */
+.btn-primary {
+  background-color: black;
+  color: white;
+}
+
+.text-orange {
+  color: orange;
+}
+
+.places-section {
+  padding: 6rem 0;
+}
+
+.places-section h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.places-section p {
+  margin-bottom: 1rem;
+}
+
+.places-section button {
+  padding: 1em 1.5em;
+}
+
+.places-content {
+  max-width: 500px;
+}
+
+.card-container {
+  margin-top: 2rem;
+}
+
+.card-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.card {
+  width: 24%;
+  min-height: 400px;
+  border-radius: 1em;
+  background-color: white;
+  float: left;
+  margin: 0 0.3em;
+  margin-bottom: 5rem;
+}
+
+.card::after {
+  clear: both;
+}
+
+.card-img {
+  max-width: 100%;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.card-content {
+  padding: 1em 1.2em;
+}
+
+.content {
+  max-width: 450px;
+  margin-bottom: 2rem;
+}
+
+.content p {
+  margin-bottom: 1rem;
+}
+
+.content button {
+  padding: 1em 2em;
+}
+
+.rating {
+  margin-bottom: 0.3rem;
+}
+
+.rating-icons {
+  color: rgb(223, 155, 29);
+}
+
+.rating-count {
+  font-weight: 700;
+  padding-left: 0.5rem;
+}
+
+.location {
+  margin-bottom: 0.3rem;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+.text-semibold {
+  font-weight: 600;
+}
+
+/* ======================================== */
+.hero-btn{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 0.55em 2em;
+    border-radius: 1.2rem;
+    margin: 0 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-title {
+  font-size: 3.3rem;
+  margin-bottom: 0.9rem;
+}
+
+.hero-desc {
+  line-height: 1.8;
+  margin-bottom: 0.9rem;
+  font-size: 1.1rem;
+}
+
+
+.img{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    position: relative;
+    z-index: -1;
+}
+/* ==================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+      background-color: #f4f4f4;
+}
+
+.header{
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("hero.jpg");
+    top: 0;
+    padding: 0.9rem 0;
+    position: sticky;
+}
+
+.header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.logo{
+    width: 33.33%;
+    float: left;
+    font-size: 1.7rem;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav-items{
+    list-style-type: none;
+    float: left;
+    width: 38%;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+
+.nav-item{
+    display: inline-block;    
+    margin: 0 1rem;
+    font-weight: 500;
+    padding-bottom: 0.3rem;
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:hover{
+    border-bottom: 1px solid white;
+}
+
+.btn-container{
+    width: max-content;
+    float: right;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn{
+    border: none;
+    padding: 0.5em 1.6em;
+    border-radius: 1rem;
+    margin: 0 0.2rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.btn-1{
+    color: black;
+background-color: rgba(255, 255, 255, 0.5);
+}
+.btn-2{
+    color: white;
+    background-color: black;
+}
