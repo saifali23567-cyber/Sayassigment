@@ -1,0 +1,649 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Space Grotesk',sans-serif;
+    color:#111;
+    background:#fff;
+}
+
+.container{
+    max-width:1200px;
+}
+
+section{
+    padding:80px 0;
+}
+
+/* NAVBAR */
+
+.navbar-brand{
+    font-size:34px;
+    font-weight:700;
+}
+
+.nav-link{
+    color:#111;
+    margin:0 12px;
+    font-weight:500;
+}
+
+.quote-btn{
+    border:1.5px solid #111;
+    border-radius:14px;
+    padding:14px 28px;
+    background:white;
+    border:2px solid #111;
+    padding:16px 34px;
+    border-radius:14px;
+}
+
+.quote-btn:hover{
+    background:#111;
+    color:white;
+}
+
+/* HERO */
+
+.hero h1{
+    font-size:62px;
+    font-weight:700;
+    line-height:1.1;
+}
+
+.hero p{
+    margin:35px 0;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.dark-btn{
+    background:#191A23;
+    color:white;
+    border-radius:14px;
+    font-size:18px;
+    font-weight:500;
+    padding:18px 40px;
+}
+
+.dark-btn:hover{
+    background:black;
+    color:white;
+}
+
+.hero-img{
+    width:100%;
+    max-width:600px;
+}
+/* LOGOS */
+
+.logos h3{
+    color:#888;
+    font-size:34px;
+    font-weight:700;
+    opacity:.7;
+}
+
+/* SECTION TITLE */
+
+.section-title{
+    display:flex;
+    align-items:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.section-title span{
+    background:#B9FF66;
+    padding:6px 14px;
+    border-radius:8px;
+    font-size:34px;
+    font-weight:700;
+}
+
+.section-title p{
+    max-width:500px;
+    margin:0;
+}
+
+/* SERVICES */
+
+.service-card{
+    border:2px solid #111;
+    border-radius:35px;
+    padding:40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#F3F3F3;
+    box-shadow:0 8px #111;
+}
+
+.service-card h3{
+    background-color: #B9FF66;
+    display: inline;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 0px 6px;
+    font-size:34px;
+    margin-bottom:60px;
+}
+
+.service-card.green{
+    background:#B9FF66;
+    height: 250px;
+}
+
+.service-card img{
+  width:210px;
+    height:auto;
+}
+
+.service-card.green h3{
+    display: inline;
+    background-color: white;
+    margin-right: 40px;
+    padding: 0px 6px;
+    font-size:34px;
+    margin-bottom:60px;
+}
+
+.service-card a{
+    display:flex;
+    align-items:center;
+    color:#111;
+    text-decoration:none;
+    font-weight:600;
+    margin-top:25px;
+}
+
+.service-card.green a{
+    display:flex;
+    align-items:center;
+    color:#111;
+    text-decoration:none;
+    font-weight:600;
+    margin-top:25px;
+}
+
+/* ACCORDION */
+
+.accordion-item{
+    border:2px solid #111;
+    border-radius:28px!important;
+    overflow:hidden;
+    margin-bottom:25px;
+    box-shadow:0 7px #111;
+}
+
+.accordion-button{
+    background:#F3F3F3;
+    font-size:26px;
+    font-weight:700;
+    padding:35px;
+}
+
+.accordion-button:not(.collapsed){
+    background:#B9FF66;
+    color:#111;
+}
+
+.accordion-button:focus{
+    box-shadow:none;
+}
+
+.accordion-body{
+    padding:35px;
+    font-size:17px;
+    line-height:1.8;
+}
+
+/* ================= CONTACT ================= */
+
+.contact-box{
+    background:#F3F3F3;
+    border-radius:40px;
+    padding:60px;
+    padding-right: 0px;
+    position:relative;
+    overflow:hidden;
+}
+
+.contact-box img{
+    max-width:100%;
+
+}
+
+.form-check{
+    margin-right:30px;
+    margin-bottom:25px;
+}
+
+.form-check-input{
+    width:20px;
+    height:20px;
+    border:2px solid #111;
+}
+
+.form-check-input:checked{
+    background:#B9FF66;
+    border-color:#111;
+}
+
+label{
+    font-weight:500;
+    margin-bottom:10px;
+}
+
+.form-control{
+    border:2px solid #111;
+    border-radius:14px;
+    padding:15px 20px;
+    min-height:55px;
+    font-size:16px;
+    box-shadow:none;
+}
+
+.form-control:focus{
+    border-color:#111;
+    box-shadow:none;
+}
+
+textarea.form-control{
+    resize:none;
+    min-height:180px;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+    margin-top:80px;
+}
+
+.footer-box{
+    background:#191A23;
+    color:#fff;
+    padding:60px;
+    border-radius:40px 40px 0px 0px;
+}
+
+.footer-links{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin:0;
+    padding:0;
+}
+
+.footer-links a{
+    color: lightgray;
+}
+
+.copyright a{
+    margin-left: 30px;
+        color:#ddd;
+}
+.footer-links a:hover{
+    color:#B9FF66;
+}
+
+.footer-social img{
+    width:34px;
+    height:34px;
+    margin-left:15px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.footer-social img:hover{
+    transform:translateY(-3px);
+}
+
+.green-label{
+    background:#B9FF66;
+    color:#111;
+    padding:5px 12px;
+    border-radius:8px;
+    font-weight:700;
+}
+
+.subscribe-box{
+    background:#292A32;
+    border-radius:18px;
+    padding:35px;
+    display:flex;
+    gap:20px;
+    align-items:center;
+}
+
+.subscribe-box input{
+    flex:1;
+    border:1px solid #fff;
+    background:transparent;
+    color:#fff;
+    padding:18px;
+    border-radius:14px;
+    outline:none;
+}
+
+.subscribe-box input::placeholder{
+    color:#ddd;
+}
+
+.subscribe-box button{
+    background:#B9FF66;
+    border:none;
+    padding:18px 28px;
+    border-radius:14px;
+    height:58px;
+    font-size:18px;
+    font-weight:600;
+}
+
+.subscribe-box button:hover{
+    background:white;
+}
+
+hr{
+    border-color:#666;
+    margin:50px 0 25px;
+}
+
+.copyright{
+    color:#ddd;
+}
+
+/* ================= BUTTONS ================= */
+
+.btn{
+    transition:.3s;
+}
+
+.dark-btn:hover{
+    transform:translateY(-2px);
+}
+
+.quote-btn:hover{
+    transform:translateY(-2px);
+}
+
+/* ================= SERVICE HOVER ================= */
+
+.service-card{
+    transition:.35s;
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+}
+
+.service-card img{
+    transition:.4s;
+}
+
+.service-card:hover img{
+    transform:scale(1.06);
+}
+
+/* ================= ACCORDION ================= */
+
+.accordion-button strong{
+    font-size:42px;
+    margin-right:20px;
+}
+
+.accordion-button::after{
+    width:35px;
+    height:35px;
+    background-size:35px;
+}
+
+/* ================= LOGOS ================= */
+
+.logos .col{
+    transition:.3s;
+}
+
+.logos .col:hover{
+    transform:scale(1.1);
+}
+
+/* ================= GENERAL ================= */
+img{
+    max-width:100%;
+}
+a{
+    transition:.3s;
+}
+button{
+    transition:.3s;
+}
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:1200px){
+
+.hero h1{
+    font-size:54px;
+}
+
+.service-card h3{
+    font-size:28px;
+}
+
+.section-title span{
+    font-size:30px;
+}
+
+}
+
+@media(max-width:992px){
+
+.hero{
+    text-align:center;
+}
+
+.hero .row{
+    flex-direction:column-reverse;
+}
+
+.hero-img{
+    margin-bottom:50px;
+}
+
+.section-title{
+    flex-direction:column;
+    text-align:center;
+}
+
+.service-card{
+    flex-direction:column;
+    text-align:center;
+    gap:35px;
+}
+
+.service-card h3{
+    margin-bottom:20px;
+}
+
+.contact-box{
+    padding:40px;
+}
+
+.contact-box img{
+    margin-top:50px;
+}
+
+.footer-links{
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:30px;
+}
+
+.subscribe-box{
+    margin-top:35px;
+    flex-direction:column;
+}
+
+.subscribe-box input,
+.subscribe-box button{
+    width:100%;
+}
+
+footer{
+    text-align:center;
+}
+
+}
+
+@media(max-width:768px){
+
+section{
+    padding:60px 0;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.section-title span{
+    font-size:24px;
+}
+
+.service-card{
+    padding:30px;
+}
+
+.service-card img{
+    width:150px;
+}
+
+.accordion-button{
+    font-size:18px;
+    padding:25px;
+}
+
+.accordion-button strong{
+    font-size:28px;
+}
+
+.footer-box{
+    padding:35px;
+}
+
+.contact-box{
+    padding:25px;
+}
+
+}
+
+@media(max-width:576px){
+
+.navbar-brand{
+    font-size:28px;
+}
+
+.hero h1{
+    font-size:34px;
+}
+
+.hero p{
+    font-size:16px;
+}
+
+.dark-btn,
+.quote-btn{
+    width:100%;
+}
+
+.section-title p{
+    text-align:center;
+}
+
+.service-card h3{
+    font-size:24px;
+}
+
+.logos h3{
+    font-size:22px;
+}
+
+.footer-links{
+    gap:15px;
+}
+
+.footer-box{
+    border-radius:20px;
+}
+
+.contact-box{
+    border-radius:20px;
+}
+
+}
+
+.logos img{
+    height:50px;
+    width: auto;
+    object-fit:contain;
+    filter: grayscale(100%);
+    opacity:.75;
+    transition:.3s;
+}
+
+.logos img:hover{
+    filter:grayscale(50%);
+    opacity:1;
+    transform:scale(1.05);
+}
+
+.navbar img{
+    height:36px;
+    width:auto;
+}
+
+.learn-icon{
+    margin-top: 5px;
+    display: inline-block;
+    width:34px;
+    height:34px;
+   margin-right:10px;
+    vertical-align:middle;
+}
+
+
+.accordion-button{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.accordion-button::after{
+    display: none !important;
+}
+
+.accordion-button::after{
+    background-image: url("Plus.png");
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("minus.png");
+}
+
+.accordion-icon{
+    width:42px;
+    height:42px;
+    margin-left:auto;
+}
+
+.contact-image{
+    width:470px;
+    max-width:100%;
+    margin-left:40px;
+}
